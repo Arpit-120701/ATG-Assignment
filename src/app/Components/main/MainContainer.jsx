@@ -89,17 +89,23 @@ const MainContainer = () => {
 
     <div>
       <>
-      <head>
-      <meta name="viewport" content="width device-width, initial-scale=1.0"></meta>
-      </head>
+        <head>
+          <meta name="viewport" content="width device-width, initial-scale=1.0"></meta>
+        </head>
+
+
         <div className='mainbody ' style={{ backgroundColor: "#E5E1DA", height: "1000px", width: "100%", display: "flex" }}>
+
           <div className='sideIntro ' style={sideIntrostyle}>
             <div className="sideUpper  " style={sideUpperstyle}></div>
             <div className='sideLower col-4' style={sideLowerStyle} >
-              <img src="Group.png"></img>
-            </div>
 
+              <img src="Group.png"></img>
+
+            </div>
           </div>
+
+
           <div className='Login' style={RightloginStyle}>
             <h1>Sign In</h1>
             <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -124,7 +130,17 @@ const MainContainer = () => {
 
           </div>
 
+
+
         </div>
+
+
+
+
+
+
+
+
         <div className="Secondpart" style={{ height: "500px", width: "100%", display: "flex", marginBottom: "30px" }}>
 
           <div className='midBox' style={{ height: "1440px", width: "542", marginTop: "104px", marginLeft: "300px", marginBottom: "30px" }}>
@@ -134,26 +150,26 @@ const MainContainer = () => {
             <div style={{ display: "flex" }}>
 
               <div onMouseEnter={handleMouseEnter}
-               onMouseLeave={handleMouseLeave} class="cards1" style={{ height: "175px", width: "360px", marginLeft: "70px", marginRight: "20px", border: "1px solid purple", alignContent: "center", borderRadius: "3%", backgroundColor:isHovered? "#8064A2":"white", color:isHovered? "white":"#8064A2"  }}>
+                onMouseLeave={handleMouseLeave} class="cards1" style={{ height: "175px", width: "360px", marginLeft: "70px", marginRight: "20px", border: "1px solid purple", alignContent: "center", borderRadius: "3%", backgroundColor: isHovered ? "#8064A2" : "white", color: isHovered ? "white" : "#8064A2" }}>
                 <div class="cardsUpper1" style={{ display: "flex" }}>
                   <div style={{ height: "60px", marginTop: "30px", marginLeft: "40px", gap: "20px 20px" }}>
 
                   </div>
                   <div style={{ height: "60px", marginTop: "30px", gap: "20px 20px", fontSize: "1.2rem" }} ><img src="Group349.png"></img></div>
                 </div>
-                <p style={{ fontSize: "0.9rem", color: "purple" ,display:"flex", justifyContent:"center", textAlign:"center"}}>Find a teacher, coach pr expert for your Hobby interest in  your locality. Find a partner, teammates, accompanist for collaborator</p>
+                <p style={{ fontSize: "0.9rem", color: "purple", display: "flex", justifyContent: "center", textAlign: "center" }}>Find a teacher, coach pr expert for your Hobby interest in  your locality. Find a partner, teammates, accompanist for collaborator</p>
 
               </div>
 
               <div onMouseEnter={handleMouseEnter2}
-               onMouseLeave={handleMouseLeave2} class="cards2 hover:bg-sky-700" style={{ height: "175px", width: "360px", alignContent: "center", marginRight: "20px", border: "1px solid purple", border: "1px solid green", borderRadius: "3%", backgroundColor:isHovered2? "#77933C":"white" }}>
+                onMouseLeave={handleMouseLeave2} class="cards2 hover:bg-sky-700" style={{ height: "175px", width: "360px", alignContent: "center", marginRight: "20px", border: "1px solid purple", border: "1px solid green", borderRadius: "3%", backgroundColor: isHovered2 ? "#77933C" : "white" }}>
                 <div class="cardsUpper2" style={{ display: "flex" }}>
                   <div style={{ height: "60px", marginTop: "30px", marginLeft: "40px", gap: "20px 20px" }}>
                     <img layout="responsive" src="Group164.png"></img>
                   </div>
                   <div style={{ height: "60px", marginTop: "30px", marginLeft: "40px", gap: "20px 20px", fontSize: "1.2rem" }} ></div>
                 </div>
-                <p style={{ fontSize: "0.9rem", color: "purple", textAlign:"center" }}>Find a class, school program auditorium, studioshop or an event venue. Book a slot at venues that allow booking through hobbyque.</p>
+                <p style={{ fontSize: "0.9rem", color: "purple", textAlign: "center" }}>Find a class, school program auditorium, studioshop or an event venue. Book a slot at venues that allow booking through hobbyque.</p>
 
               </div>
 
@@ -164,26 +180,26 @@ const MainContainer = () => {
             <div style={{ display: "flex" }}>
 
               <div onMouseEnter={handleMouseEnter3}
-               onMouseLeave={handleMouseLeave3} class="cards3" style={{ height: "175px", width: "360px", marginLeft: "70px", marginTop: "30px", border: "1px solid red", borderRadius: "3%" , backgroundColor:isHovered3? "#C0504D":"white" }}>
+                onMouseLeave={handleMouseLeave3} class="cards3" style={{ height: "175px", width: "360px", marginLeft: "70px", marginTop: "30px", border: "1px solid red", borderRadius: "3%", backgroundColor: isHovered3 ? "#C0504D" : "white" }}>
                 <div class="cardsUpper2" style={{ display: "flex" }}>
                   <div style={{ height: "60px", marginTop: "10px", marginLeft: "40px" }}>
                     <img src="GroupProduct.png"></img>
                   </div>
                   <div style={{ height: "60px", marginTop: "30px", marginLeft: "40px", gap: "20px 20px", fontSize: "1.2rem" }} ></div>
                 </div>
-                <p style={{ fontSize: "0.9rem", color: "purple", textAlign:"center" }}>Find equipment or supplies requires ypour hobby. Buy rent or borrow form shops, online assests, online stores or community members.</p>
+                <p style={{ fontSize: "0.9rem", color: "purple", textAlign: "center" }}>Find equipment or supplies requires ypour hobby. Buy rent or borrow form shops, online assests, online stores or community members.</p>
               </div>
 
 
               <div onMouseEnter={handleMouseEnter4}
-               onMouseLeave={handleMouseLeave4} class="cards2" style={{ height: "175px", width: "360px", marginTop: "30px", marginLeft: "20px", marginRight: "20px", border: "1px solid blue", borderRadius: "3%" , backgroundColor:isHovered4? "#0096C8":"white"}}>
+                onMouseLeave={handleMouseLeave4} class="cards2" style={{ height: "175px", width: "360px", marginTop: "30px", marginLeft: "20px", marginRight: "20px", border: "1px solid blue", borderRadius: "3%", backgroundColor: isHovered4 ? "#0096C8" : "white" }}>
                 <div class="cardsUpper2" style={{ display: "flex" }}>
                   <div style={{ height: "60px", marginTop: "10px", marginLeft: "40px", gap: "20px 20px" }}>
                     <img src="Groupprogram.png"></img>
                   </div>
                   <div style={{ height: "60px", marginTop: "10px", marginLeft: "40px", gap: "20px 20px", fontSize: "1.2rem" }} ></div>
                 </div>
-                <p style={{ fontSize: "0.9rem", color: "purple", textAlign:"center" }}>Find events, ,meetups, and workshops related to your hobby. Register or buy tickets online. </p>
+                <p style={{ fontSize: "0.9rem", color: "purple", textAlign: "center" }}>Find events, ,meetups, and workshops related to your hobby. Register or buy tickets online. </p>
               </div>
 
             </div>

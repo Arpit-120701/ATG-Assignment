@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 //<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
- 
+
 
 
 const Navbar = () => {
@@ -23,11 +23,12 @@ const Navbar = () => {
         display: 'flex'
 
     }
-    
+
 
     return (
-        
+
         <div>
+
             <div className='Navbar' style={Navbar}>
                 <div className='leftlogo' style={{ marginLeft: "97px", marginTop: "10px", height: "60px", width: "293.26px" }}><img src="hobbycue.jpg" /> </div>
                 <div className='centerSearch'>
@@ -37,21 +38,21 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='widgets' style={{ marginLeft: "470px", display: "flex", gap: "20px 20px", marginTop: "20px" }} >
-                    
-            
-                    <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" style={{background:"white", color:"#8064A2"}} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true"> <img src="Explore.png"></img>Explore</button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">People Community</a></li>
-                                <li><a class="dropdown-item" href="#">Places-Venues </a></li>
-                                <li><a class="dropdown-item" href="#">Program-Events</a></li>
-                            </ul>
 
-                        </div>
-                    
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" style={{ background: "white", color: "#8064A2" }} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true"> <img src="Explore.png"></img>Explore</button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">People Community</a></li>
+                            <li><a class="dropdown-item" href="#">Places-Venues </a></li>
+                            <li><a class="dropdown-item" href="#">Program-Events</a></li>
+                        </ul>
+
+                    </div>
+
                     <a href='/'>
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" style={{background:"white", color:"#8064A2"}} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <img src="Hobbies.png"></img>Hobbies</button>
+                            <button class="btn btn-secondary dropdown-toggle" style={{ background: "white", color: "#8064A2" }} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <img src="Hobbies.png"></img>Hobbies</button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -65,7 +66,7 @@ const Navbar = () => {
                     <a href='/'><img src="Product 3.png"></img></a>
                     <a href='/'>
                         <div class="btn-group" role="group" aria-label="Basic outlined example">
-                            <button type="button" class={`btn btn-outline-light`} style={{borderColor: "#8064A2",minWidth:"40px",maxWidth: "112px",color:"black", color:"#8064A2"}} >Sign In</button>
+                            <button type="button" class={`btn btn-outline-light`} style={{ borderColor: "#8064A2", minWidth: "40px", maxWidth: "112px", color: "black", color: "#8064A2" }} >Sign In</button>
                         </div>
                     </a>
 
